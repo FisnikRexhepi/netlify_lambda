@@ -1,5 +1,5 @@
 const fetchUsers = async () => 
-await (await fetch('./NETLIFY-AWS-LAMBDA/functions/getusers')).json();
+await (await fetch('/.netlify/functions/getusers')).json();
 
 
 fetchUsers().then(data => {
